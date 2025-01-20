@@ -10,7 +10,7 @@ export const getVideos = async () => {
     return response.data;
   } catch (error) {
     console.error("Erro ao buscar videos", error);
-    throw new Error("No se pudieron obtener los videos. Intente de nuevo.");
+    throw new Error("Não foi possível obter os vídeos. Tente novamente.");
   }
 };
 
