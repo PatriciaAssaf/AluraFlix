@@ -33,8 +33,8 @@ export const BannerContent = styled.div`
 
 export const BannerTitle = styled.h1`
   font-size: 2.5rem;
-  background-color: ${({ theme, category }) =>
-    theme.colors.categoryColors[category]};
+  background-color: ${({ theme, $category }) =>
+    theme.colors.categoryColors[$category]};
   padding: 0.5rem 1rem;
   border-radius: 8px;
   display: inline-block;
